@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Jusiia - Questionario</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="form-container">
+    <form id="jusiiaForm">
+      <!-- Step 1 -->
+<!-- Step 1 -->
+      <div class="form-step active">
+        <h2>1. Inserisci la tua email per ricevere il punteggio</h2>
+        <input type="email" name="indirizzo_email" placeholder="es. nome@email.com">
+        <button type="button" class="next-btn">Avanti</button>
+      </div>
+
+
+      <!-- Step 2 -->
+      <div class="form-step">
+        <h2>2. Inserisci una descrizione del tuo progetto</h2>
+        <textarea name="descrizione_progetto" placeholder="Scrivi qui..."></textarea>
+        <button type="button" class="prev-btn">Indietro</button>
+        <button type="button" class="next-btn">Avanti</button>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="form-step">
+        <h2>3. Dimensione Economica</h2>
+        <label><input type="radio" name="dimensione_economica" value="Nessuna creazione misurabile di posti di lavoro o ruoli esclusivamente a breve termine/precari; salari inferiori agli standard locali; nessun stimolo economico"> Nessuna creazione misurabile di posti di lavoro o ruoli esclusivamente a breve termine/precari; salari inferiori agli standard locali; nessun stimolo economico</label>
+        <label><input type="radio" name="dimensione_economica" value="Creazione limitata di posti di lavoro con stabilità minima; ruoli per lo più part-time o insicuri; debole collegamento con l'attività economica locale."> Creazione limitata di posti di lavoro con stabilità minima; ruoli per lo più part-time o insicuri; debole collegamento con l'attività economica locale.</label>
+        <label><input type="radio" name="dimensione_economica" value="Occupazione stabile per alcuni gruppi target; salari e contratti equi; contributo moderato alla circolazione economica locale."> Occupazione stabile per alcuni gruppi target; salari e contratti equi; contributo moderato alla circolazione economica locale.</label>
+        <label><input type="radio" name="dimensione_economica" value="Creazione significativa e sostenuta di posti di lavoro con paga equa e benefici in regioni svantaggiate o gruppi marginalizzati; rafforza le catene di approvvigionamento locali."> Creazione significativa e sostenuta di posti di lavoro con paga equa e benefici in regioni svantaggiate o gruppi marginalizzati; rafforza le catene di approvvigionamento locali.</label>
+        <label><input type="radio" name="dimensione_economica" value="Crea occupazione di alta qualità e sicura su larga scala; promuove un cambiamento strutturale nel mercato del lavoro locale o modelli economici inclusivi; dimostra un valore a lungo termine oltre il ciclo del progetto."> Crea occupazione di alta qualità e sicura su larga scala; promuove un cambiamento strutturale nel mercato del lavoro locale o modelli economici inclusivi; dimostra un valore a lungo termine oltre il ciclo del progetto.</label>
+        <button type="button" class="prev-btn">Indietro</button>
+        <button type="button" class="next-btn">Avanti</button>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="form-step">
+        <h2>4. Dimensione Salute</h2>
+        <label><input type="radio" name="dimensione_salute" value="Nessun miglioramento misurabile; possibili segni di ulteriore degrado."> Nessun miglioramento misurabile; possibili segni di ulteriore degrado.</label>
+        <label><input type="radio" name="dimensione_salute" value="Condizioni dell'ecosistema mantenute; lievi miglioramenti evidenti."> Condizioni dell'ecosistema mantenute; lievi miglioramenti evidenti.</label>
+        <label><input type="radio" name="dimensione_salute" value="Miglioramento evidente in uno o più parametri ecosistemici. Segni iniziali di recupero, ma limitati in scala o portata."> Miglioramento evidente in uno o più parametri ecosistemici. Segni iniziali di recupero, ma limitati in scala o portata.</label>
+        <label><input type="radio" name="dimensione_salute" value="Ripristino raggiunto; cambiamento positivo in molteplici parametri ecosistemici come biodiversità, salute del suolo o struttura dell'habitat."> Ripristino raggiunto; cambiamento positivo in molteplici parametri ecosistemici come biodiversità, salute del suolo o struttura dell'habitat.</label>
+        <label><input type="radio" name="dimensione_salute" value="Rigenerazione sistemica; ripristino della connettività, biodiversità e sostenibilità a lungo termine."> Rigenerazione sistemica; ripristino della connettività, biodiversità e sostenibilità a lungo termine.</label>
+        <button type="button" class="prev-btn">Indietro</button>
+        <button type="button" class="next-btn">Avanti</button>
+      </div>
+
+      <!-- Step 5 -->
+      <div class="form-step">
+        <h2>5. Dimensione Ambientale - Emissioni</h2>
+        <label><input type="radio" name="dimensione_ambientale_emissioni" value="Nessuna riduzione misurabile; possibili aumenti delle emissioni. <1 tonnellata di CO2 rimossa"> Nessuna riduzione misurabile; possibili aumenti delle emissioni. &lt;1 tonnellata di CO2 rimossa</label>
+        <label><input type="radio" name="dimensione_ambientale_emissioni" value="Riduzioni minime o marginali rispetto alla baseline. 1-10 tonnellate di CO2 rimosse"> Riduzioni minime o marginali rispetto alla baseline. 1-10 tonnellate di CO2 rimosse</label>
+        <label><input type="radio" name="dimensione_ambientale_emissioni" value="Riduzione evidente ma limitata in scala o impatto. 10-50 tonnellate di CO2 rimosse, tracciabilità e addizionalità moderate."> Riduzione evidente ma limitata in scala o impatto. 10-50 tonnellate di CO2 rimosse, tracciabilità e addizionalità moderate.</label>
+        <label><input type="radio" name="dimensione_ambientale_emissioni" value="Riduzione significativa e sostenuta delle emissioni in uno o più settori o attività. 50-100 tonnellate di CO2 rimosse; dati solidi e sequestro durevole."> Riduzione significativa e sostenuta delle emissioni in uno o più settori o attività. 50-100 tonnellate di CO2 rimosse; dati solidi e sequestro durevole.</label>
+        <label><input type="radio" name="dimensione_ambientale_emissioni" value="Riduzione sistemica e duratura delle emissioni con impatti a livello territoriale o settoriale, contribuendo in modo rilevante agli obiettivi climatici a lungo termine. 100 tonnellate di CO2 rimosse; alta permanenza, scalabilità e contributo positivo al clima."> Riduzione sistemica e duratura delle emissioni con impatti a livello territoriale o settoriale, contribuendo in modo rilevante agli obiettivi climatici a lungo termine. 100 tonnellate di CO2 rimosse; alta permanenza, scalabilità e contributo positivo al clima.</label>
+        <button type="button" class="prev-btn">Indietro</button>
+        <button type="button" class="next-btn">Avanti</button>
+      </div>
+
+      <!-- Step 6 -->
+        <div class="form-step">
+        <h2>6. Dimensione Ambientale - Rifiuti</h2>
+        <label><input type="radio" name="dimensione_ambientale_rifiuti" value="<20% dei rifiuti gestiti in modo sostenibile."> &lt;20% dei rifiuti gestiti in modo sostenibile.</label>
+        <label><input type="radio" name="dimensione_ambientale_rifiuti" value="20-39% gestiti in modo sostenibile."> 20–39% gestiti in modo sostenibile.</label>
+        <label><input type="radio" name="dimensione_ambientale_rifiuti" value="40-59% gestiti in modo sostenibile."> 40–59% gestiti in modo sostenibile.</label>
+        <label><input type="radio" name="dimensione_ambientale_rifiuti" value="60-79% gestiti in modo sostenibile."> 60–79% gestiti in modo sostenibile.</label>
+        <label><input type="radio" name="dimensione_ambientale_rifiuti" value="≥80% dei rifiuti gestiti in modo sostenibile, con soluzioni circolari integrate."> ≥80% dei rifiuti gestiti in modo sostenibile, con soluzioni circolari integrate.</label>
+        <button type="button" class="prev-btn">Indietro</button>
+        <button type="button" class="next-btn">Avanti</button>
+      </div>
+
+      <!-- Step 7 -->
+          <div class="form-step">
+        <h2>7. Dimensione Tecnologica</h2>
+        <label><input type="radio" name="dimensione_tecnologica" value="Adattamento minimo di tecnologie esistenti; nessuna adozione o diffusione esterna."> Adattamento minimo di tecnologie esistenti; nessuna adozione o diffusione esterna.</label>
+        <label><input type="radio" name="dimensione_tecnologica" value="Certa novità, limitata all'uso interno; partnership locali o replicazioni minori."> Certa novità, limitata all'uso interno; partnership locali o replicazioni minori.</label>
+        <label><input type="radio" name="dimensione_tecnologica" value="Innovazione o trasferimento moderato; adottato da almeno un partner esterno o replicato una volta."> Innovazione o trasferimento moderato; adottato da almeno un partner esterno o replicato una volta.</label>
+        <label><input type="radio" name="dimensione_tecnologica" value="Innovazione o diffusione sostanziale; adottato da più attori esterni o formalizzato nell'uso pubblico."> Innovazione o diffusione sostanziale; adottato da più attori esterni o formalizzato nell'uso pubblico.</label>
+        <label><input type="radio" name="dimensione_tecnologica" value="Trasferimento sistemico; scalato a livello regionale o nazionale; contribuisce agli ecosistemi di innovazione aperta."> Trasferimento sistemico; scalato a livello regionale o nazionale; contribuisce agli ecosistemi di innovazione aperta.</label>
+        <button type="button" class="prev-btn">Indietro</button>
+        <button type="button" class="next-btn">Avanti</button>
+      </div>
+
+          <div class="form-step">
+      <h2>8. Dimensione Sociale e Diritti Civili (Equità)</h2>
+      <label><input type="radio" name="dimensione_sociale_equita" value="Nessun cambiamento osservabile; le disuguaglianze persistono o c'è un leggero aumento potenziale."> Nessun cambiamento osservabile; le disuguaglianze persistono o c'è un leggero aumento potenziale.</label>
+      <label><input type="radio" name="dimensione_sociale_equita" value="Miglioramenti minori per una popolazione o ambito limitato."> Miglioramenti minori per una popolazione o ambito limitato.</label>
+      <label><input type="radio" name="dimensione_sociale_equita" value="Riduzione misurabile delle disuguaglianze tra i gruppi target; ridotti i divari di accesso."> Riduzione misurabile delle disuguaglianze tra i gruppi target; ridotti i divari di accesso.</label>
+      <label><input type="radio" name="dimensione_sociale_equita" value="Miglioramenti ampi e sostenuti nell'equità tra più gruppi."> Miglioramenti ampi e sostenuti nell'equità tra più gruppi.</label>
+      <label><input type="radio" name="dimensione_sociale_equita" value="Cambiamento strutturale nella distribuzione dell'equità; i gruppi vulnerabili ottengono accesso o controllo sistemico sulle risorse."> Cambiamento strutturale nella distribuzione dell'equità; i gruppi vulnerabili ottengono accesso o controllo sistemico sulle risorse.</label>
+      <button type="button" class="prev-btn">Indietro</button>
+      <button type="button" class="next-btn">Avanti</button>
+    </div>
+
+    <div class="form-step">
+      <h2>9. Dimensione Sociale e Diritti Civili (Lavoro)</h2>
+      <label><input type="radio" name="dimensione_sociale_lavoro" value="Conformità parziale agli standard di base; protezione minima o applicazione debole."> Conformità parziale agli standard di base; protezione minima o applicazione debole.</label>
+      <label><input type="radio" name="dimensione_sociale_lavoro" value="Protezioni di base per i lavoratori presenti."> Protezioni di base per i lavoratori presenti.</label>
+      <label><input type="radio" name="dimensione_sociale_lavoro" value="Applicazione coerente di pratiche lavorative eque, inclusi salario minimo, orari ragionevoli e condizioni sicure; alcune lacune nella contrattazione collettiva o nella stabilità a lungo termine."> Applicazione coerente di pratiche lavorative eque, inclusi salario minimo, orari ragionevoli e condizioni sicure; alcune lacune nella contrattazione collettiva o nella stabilità a lungo termine.</label>
+      <label><input type="radio" name="dimensione_sociale_lavoro" value="Forte conformità agli standard internazionali; lavoro dignitoso e contratti stabili."> Forte conformità agli standard internazionali; lavoro dignitoso e contratti stabili.</label>
+      <label><input type="radio" name="dimensione_sociale_lavoro" value="Ambiente di lavoro esemplare; promuove equità, diritti collettivi, protezione sociale e mobilità sociale verso l'alto."> Ambiente di lavoro esemplare; promuove equità, diritti collettivi, protezione sociale e mobilità sociale verso l'alto.</label>
+      <button type="button" class="prev-btn">Indietro</button>
+      <button type="button" class="next-btn">Avanti</button>
+    </div>
+
+        <div class="form-step">
+      <h2>10. Dimensione Istituzionale (Governance)</h2>
+      <label><input type="radio" name="dimensione_istituzionale_governance" value="Nessun quadro formale di governance o infrastruttura etica in atto."> Nessun quadro formale di governance o infrastruttura etica in atto.</label>
+      <label><input type="radio" name="dimensione_istituzionale_governance" value="Strutture etiche o di responsabilità parziali; politiche deboli o non applicate."> Strutture etiche o di responsabilità parziali; politiche deboli o non applicate.</label>
+      <label><input type="radio" name="dimensione_istituzionale_governance" value="Esistenza di politiche formali; certa conformità e consapevolezza del personale, applicazione limitata."> Esistenza di politiche formali; certa conformità e consapevolezza del personale, applicazione limitata.</label>
+      <label><input type="radio" name="dimensione_istituzionale_governance" value="Modello di governance chiaro; applicazione attiva; canali etici accessibili."> Modello di governance chiaro; applicazione attiva; canali etici accessibili.</label>
+      <label><input type="radio" name="dimensione_istituzionale_governance" value="Struttura di governance completamente trasparente e partecipativa con forte responsabilità, meccanismi di rendicontazione e feedback."> Struttura di governance completamente trasparente e partecipativa con forte responsabilità, meccanismi di rendicontazione e feedback.</label>
+      <button type="button" class="prev-btn">Indietro</button>
+      <button type="button" class="next-btn">Avanti</button>
+    </div>
+
+        <div class="form-step">
+      <h2>11. Dimensione Istituzionale (Stakeholder)</h2>
+      <label><input type="radio" name="dimensione_istituzionale_stakeholder" value="Nessun coinvolgimento degli stakeholder o partecipazione puramente simbolica."> Nessun coinvolgimento degli stakeholder o partecipazione puramente simbolica.</label>
+      <label><input type="radio" name="dimensione_istituzionale_stakeholder" value="Consultazioni limitate; gruppi selezionati invitati ma con bassa influenza."> Consultazioni limitate; gruppi selezionati invitati ma con bassa influenza.</label>
+      <label><input type="radio" name="dimensione_istituzionale_stakeholder" value="Partecipazione degli stakeholder presente nelle fasi di pianificazione o revisione; qualche influenza."> Partecipazione degli stakeholder presente nelle fasi di pianificazione o revisione; qualche influenza.</label>
+      <label><input type="radio" name="dimensione_istituzionale_stakeholder" value="Stakeholder attivamente coinvolti durante tutto il processo; implementazione di processi di co-progettazione."> Stakeholder attivamente coinvolti durante tutto il processo; implementazione di processi di co-progettazione.</label>
+      <label><input type="radio" name="dimensione_istituzionale_stakeholder" value="Modello completo di co-governance con condivisione del potere e collaborazione duratura tra i settori."> Modello completo di co-governance con condivisione del potere e collaborazione duratura tra i settori.</label>
+      <button type="button" class="prev-btn">Indietro</button>
+      <button type="button" class="next-btn">Avanti</button>
+    </div>
+
+    <div class="form-step">
+      <h2>12. Dimensione Territoriale</h2>
+      <label><input type="radio" name="dimensione_territoriale" value="Nessun coinvolgimento della comunità o sfiducia; attività scollegate dai bisogni locali."> Nessun coinvolgimento della comunità o sfiducia; attività scollegate dai bisogni locali.</label>
+      <label><input type="radio" name="dimensione_territoriale" value="Coinvolgimento limitato o simbolico; partecipazione di un gruppo demografico ristretto."> Coinvolgimento limitato o simbolico; partecipazione di un gruppo demografico ristretto.</label>
+      <label><input type="radio" name="dimensione_territoriale" value="Coinvolgimento regolare di alcuni membri della comunità; fiducia e dialogo moderati."> Coinvolgimento regolare di alcuni membri della comunità; fiducia e dialogo moderati.</label>
+      <label><input type="radio" name="dimensione_territoriale" value="Ampia partecipazione di gruppi locali diversi; alta visibilità e accettazione."> Ampia partecipazione di gruppi locali diversi; alta visibilità e accettazione.</label>
+      <label><input type="radio" name="dimensione_territoriale" value="Coinvolgimento profondo, duraturo e co-creativo tra i settori; forte senso di appartenenza locale e coesione sociale."> Coinvolgimento profondo, duraturo e co-creativo tra i settori; forte senso di appartenenza locale e coesione sociale.</label>
+      <button type="button" class="prev-btn">Indietro</button>
+      <button type="button" class="next-btn">Avanti</button>
+    </div>
+
+        <div class="form-step">
+      <h2>13. Dimensione Educativa, Culturale e Cognitiva</h2>
+      <label><input type="radio" name="dimensione_educativa" value="Nessuna formazione o formazione simbolica; aspetti culturali/educativi assenti."> Nessuna formazione o formazione simbolica; aspetti culturali/educativi assenti.</label>
+      <label><input type="radio" name="dimensione_educativa" value="Sforzi formativi sporadici o basilari con partecipazione limitata."> Sforzi formativi sporadici o basilari con partecipazione limitata.</label>
+      <label><input type="radio" name="dimensione_educativa" value="Eventi di apprendimento regolari; diversità moderata di partecipanti o contenuti."> Eventi di apprendimento regolari; diversità moderata di partecipanti o contenuti.</label>
+      <label><input type="radio" name="dimensione_educativa" value="Attività educative multidisciplinari e inclusive; coinvolgimento continuo."> Attività educative multidisciplinari e inclusive; coinvolgimento continuo.</label>
+      <label><input type="radio" name="dimensione_educativa" value="Programmazione educativa e culturale istituzionalizzata, radicata nelle strutture pubbliche o comunitarie."> Programmazione educativa e culturale istituzionalizzata, radicata nelle strutture pubbliche o comunitarie.</label>
+      <button type="button" class="prev-btn">Indietro</button>
+      <button type="button" class="next-btn">Avanti</button>
+    </div>
+
+    <div class="form-step">
+      <h2>14. Dimensione Generazionale</h2>
+      <label><input type="radio" name="dimensione_generazionale" value="Nessun coinvolgimento dei giovani o pianificazione orientata al futuro."> Nessun coinvolgimento dei giovani o pianificazione orientata al futuro.</label>
+      <label><input type="radio" name="dimensione_generazionale" value="Riferimenti minimi agli obiettivi a lungo termine; coinvolgimento simbolico dei giovani."> Riferimenti minimi agli obiettivi a lungo termine; coinvolgimento simbolico dei giovani.</label>
+      <label><input type="radio" name="dimensione_generazionale" value="Partecipazione attiva di alcuni giovani e considerazioni esplicite sul futuro."> Partecipazione attiva di alcuni giovani e considerazioni esplicite sul futuro.</label>
+      <label><input type="radio" name="dimensione_generazionale" value="I giovani sono regolarmente coinvolti; i benefici a lungo termine sono chiaramente progettati."> I giovani sono regolarmente coinvolti; i benefici a lungo termine sono chiaramente progettati.</label>
+      <label><input type="radio" name="dimensione_generazionale" value="Ruoli di leadership e governance giovanile; pianificazione focalizzata sul futuro integrata nella strategia principale."> Ruoli di leadership e governance giovanile; pianificazione focalizzata sul futuro integrata nella strategia principale.</label>
+
+      <button type="button" class="prev-btn">Indietro</button>
+      <button type="button" class="next-btn">Avanti</button>
+      </div>
+
+      <!-- Step finale -->
+      <div class="form-step">
+        <h2>Conferma e invia</h2>
+        <p>Hai completato tutte le domande. Premi "Invia" per inviare le tue risposte.</p>
+        <button type="button" class="prev-btn">Indietro</button>
+        <button type="submit">Invia</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html><!-- trigger rebuild -->
+<!-- trigger rebuild -->
